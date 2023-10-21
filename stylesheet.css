@@ -21,14 +21,14 @@ body{
     
 }
 
-.headline{
+.header{
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
     font-size: 48px;
     color: aliceblue;
 }
 
-.byline{
+.subheader{
     font-family: 'Bodoni Moda', serif;
     font-style: italic;
     text-align: left;
@@ -45,6 +45,15 @@ body{
     margin-left: 1%;
     top: 10%;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.headline{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+
 }
 
 .share{
@@ -102,6 +111,7 @@ body{
 
 .Infographic{
 margin: 10%;
+margin-bottom: 10px;
 }
 
 .headerimage{
