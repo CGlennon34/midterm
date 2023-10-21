@@ -9,7 +9,7 @@ body{
 /*Text Styles*/
 #content{
     font-family: Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(0, 0, 0);
     width: 60%; 
     text-align: left; 
@@ -19,7 +19,7 @@ body{
 .headline{
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 48px;
     color: aliceblue;
 }
 
@@ -27,7 +27,7 @@ body{
     font-family: 'Bodoni Moda', serif;
     font-style: italic;
     text-align: left;
-    font-size: 2em;
+    font-size: 24px;
     padding-right: 10%;
     color: aliceblue
 }
@@ -43,12 +43,18 @@ body{
 .subhead{
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
-    font-size: 2em;
-    color: white;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+    font-size: 20px;
+    color: rgb(0, 28, 104);
+    
 
 }
 
+.blockquote{
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+
+}
 /*Body Styles*/
 
 
@@ -62,6 +68,21 @@ body{
     padding: 0;
 }
 
+.in-text-image{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    margin-left: 8%;
+}
 
+.caption{
+   margin-right: 20%;
+    text-align: right;
+    font-size: small;
+}
 
+.container2{
+    text-align: center;
+}
 
