@@ -1,0 +1,67 @@
+/*General Styles*/
+body{
+    background-color: rgb(255, 255, 255)
+}
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&display=swap');
+
+
+/*Text Styles*/
+#content{
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    width: 60%; 
+    text-align: left; 
+    padding: 10px;
+}
+
+.headline{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    font-size: 4em;
+    color: aliceblue;
+}
+
+.byline{
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    text-align: left;
+    font-size: 2em;
+    padding-right: 10%;
+    color: aliceblue
+}
+
+.header-bi{
+    position: absolute;
+    width: 65%;
+    padding: 10px;
+    top: 5%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+.subhead{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 100%);
+
+}
+
+/*Body Styles*/
+
+
+
+/*Images*/
+
+.headerimage{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0;
+}
+
+
+
+
